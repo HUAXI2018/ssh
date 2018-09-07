@@ -7,6 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="strut" />
+        <module name="struts1" />
+      </profile>
+      <profile name="Annotation profile for test Maven Webapp" enabled="true">
+        <sourceOutputDir name="../struts1/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../struts1/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="struts" />
       </profile>
     </annotationProcessing>
