@@ -10,6 +10,7 @@
     <modules>
         <module>../struts1</module>
         <module>../struts2</module>
+        <module>../struts1</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -2,7 +2,7 @@ package cap.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class HelloWorldAction extends ActionSupport {
+public class HelloWordAction extends ActionSupport {
     private String username;
 
     public String getUsername() {
@@ -15,11 +15,6 @@ public class HelloWorldAction extends ActionSupport {
 
     public String sayHi() {
 
-        return SUCCESS;
-
-    }
-
-    public String execute() {
         return SUCCESS;
     }
 }
